@@ -14,6 +14,9 @@
 		CFF319732C2F164E000F87A7 /* SanZenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF319722C2F164E000F87A7 /* SanZenTests.swift */; };
 		CFF3197D2C2F164E000F87A7 /* SanZenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3197C2C2F164E000F87A7 /* SanZenUITests.swift */; };
 		CFF3197F2C2F164E000F87A7 /* SanZenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3197E2C2F164E000F87A7 /* SanZenUITestsLaunchTests.swift */; };
+		CFF319912C2F272E000F87A7 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF319902C2F272E000F87A7 /* Exercise.swift */; };
+		CFF319932C2F274E000F87A7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF319922C2F274E000F87A7 /* Food.swift */; };
+		CFF319962C2F27A7000F87A7 /* Pills.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF319952C2F27A7000F87A7 /* Pills.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		CFF319782C2F164E000F87A7 /* SanZenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanZenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF3197C2C2F164E000F87A7 /* SanZenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanZenUITests.swift; sourceTree = "<group>"; };
 		CFF3197E2C2F164E000F87A7 /* SanZenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanZenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFF319902C2F272E000F87A7 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		CFF319922C2F274E000F87A7 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		CFF319952C2F27A7000F87A7 /* Pills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pills.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		CFF319602C2F164C000F87A7 /* SanZen */ = {
 			isa = PBXGroup;
 			children = (
+				CFF3198C2C2F26CA000F87A7 /* Logic */,
+				CFF3198B2C2F26BB000F87A7 /* Views */,
 				CFF319612C2F164C000F87A7 /* SanZenApp.swift */,
 				CFF319632C2F164C000F87A7 /* ContentView.swift */,
 				CFF319652C2F164E000F87A7 /* Assets.xcassets */,
@@ -125,6 +133,39 @@
 				CFF3197E2C2F164E000F87A7 /* SanZenUITestsLaunchTests.swift */,
 			);
 			path = SanZenUITests;
+			sourceTree = "<group>";
+		};
+		CFF3198B2C2F26BB000F87A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFF3198F2C2F26F0000F87A7 /* Items */,
+				CFF319922C2F274E000F87A7 /* Food.swift */,
+				CFF319902C2F272E000F87A7 /* Exercise.swift */,
+				CFF319952C2F27A7000F87A7 /* Pills.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFF3198C2C2F26CA000F87A7 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		CFF3198F2C2F26F0000F87A7 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				CFF319972C2F27B2000F87A7 /* Food */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		CFF319972C2F27B2000F87A7 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF319642C2F164C000F87A7 /* ContentView.swift in Sources */,
+				CFF319962C2F27A7000F87A7 /* Pills.swift in Sources */,
+				CFF319932C2F274E000F87A7 /* Food.swift in Sources */,
+				CFF319912C2F272E000F87A7 /* Exercise.swift in Sources */,
 				CFF319622C2F164C000F87A7 /* SanZenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
