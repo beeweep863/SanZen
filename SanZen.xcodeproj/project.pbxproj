@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1417C12C5378E400ABF605 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1417C02C5378E400ABF605 /* Sleep.swift */; };
+		CF1417C52C537A4000ABF605 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1417C42C537A4000ABF605 /* Home.swift */; };
+		CF6070F82C5A884A009DD0DA /* ProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6070F72C5A884A009DD0DA /* ProfileIcon.swift */; };
+		CF6070FA2C5A9128009DD0DA /* FoodLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6070F92C5A9128009DD0DA /* FoodLogic.swift */; };
+		CF6070FD2C5A916B009DD0DA /* TextFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6070FC2C5A916B009DD0DA /* TextFood.swift */; };
+		CF6070FF2C5A9175009DD0DA /* NumberFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6070FE2C5A9175009DD0DA /* NumberFood.swift */; };
 		CFF319622C2F164C000F87A7 /* SanZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF319612C2F164C000F87A7 /* SanZenApp.swift */; };
 		CFF319642C2F164C000F87A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF319632C2F164C000F87A7 /* ContentView.swift */; };
 		CFF319662C2F164E000F87A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF319652C2F164E000F87A7 /* Assets.xcassets */; };
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF1417C02C5378E400ABF605 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		CF1417C42C537A4000ABF605 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CF6070F72C5A884A009DD0DA /* ProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileIcon.swift; sourceTree = "<group>"; };
+		CF6070F92C5A9128009DD0DA /* FoodLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogic.swift; sourceTree = "<group>"; };
+		CF6070FC2C5A916B009DD0DA /* TextFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFood.swift; sourceTree = "<group>"; };
+		CF6070FE2C5A9175009DD0DA /* NumberFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFood.swift; sourceTree = "<group>"; };
 		CFF3195E2C2F164C000F87A7 /* SanZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF319612C2F164C000F87A7 /* SanZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanZenApp.swift; sourceTree = "<group>"; };
 		CFF319632C2F164C000F87A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF6070FB2C5A9154009DD0DA /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				CF6070FC2C5A916B009DD0DA /* TextFood.swift */,
+				CF6070FE2C5A9175009DD0DA /* NumberFood.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
 		CFF319552C2F164C000F87A7 = {
 			isa = PBXGroup;
 			children = (
@@ -138,10 +159,12 @@
 		CFF3198B2C2F26BB000F87A7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CFF3198F2C2F26F0000F87A7 /* Items */,
+				CF1417C42C537A4000ABF605 /* Home.swift */,
 				CFF319922C2F274E000F87A7 /* Food.swift */,
+				CF1417C02C5378E400ABF605 /* Sleep.swift */,
 				CFF319902C2F272E000F87A7 /* Exercise.swift */,
 				CFF319952C2F27A7000F87A7 /* Pills.swift */,
+				CFF3198F2C2F26F0000F87A7 /* Items */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +172,7 @@
 		CFF3198C2C2F26CA000F87A7 /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				CF6070F92C5A9128009DD0DA /* FoodLogic.swift */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -156,16 +180,18 @@
 		CFF3198F2C2F26F0000F87A7 /* Items */ = {
 			isa = PBXGroup;
 			children = (
-				CFF319972C2F27B2000F87A7 /* Food */,
+				CF6070FB2C5A9154009DD0DA /* Food */,
+				CFF319972C2F27B2000F87A7 /* Home */,
+				CF6070F72C5A884A009DD0DA /* ProfileIcon.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
 		};
-		CFF319972C2F27B2000F87A7 /* Food */ = {
+		CFF319972C2F27B2000F87A7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Food;
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6070FA2C5A9128009DD0DA /* FoodLogic.swift in Sources */,
 				CFF319642C2F164C000F87A7 /* ContentView.swift in Sources */,
 				CFF319962C2F27A7000F87A7 /* Pills.swift in Sources */,
 				CFF319932C2F274E000F87A7 /* Food.swift in Sources */,
 				CFF319912C2F272E000F87A7 /* Exercise.swift in Sources */,
 				CFF319622C2F164C000F87A7 /* SanZenApp.swift in Sources */,
+				CF6070FF2C5A9175009DD0DA /* NumberFood.swift in Sources */,
+				CF1417C12C5378E400ABF605 /* Sleep.swift in Sources */,
+				CF6070F82C5A884A009DD0DA /* ProfileIcon.swift in Sources */,
+				CF6070FD2C5A916B009DD0DA /* TextFood.swift in Sources */,
+				CF1417C52C537A4000ABF605 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
